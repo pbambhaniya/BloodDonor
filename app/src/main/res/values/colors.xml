@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d15241</color>
+    <color name="colorPrimaryDark">#d15241</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="backborder">#000000</color>
+    <color name="Text_color">#878787</color>
+    <color name="Red">#de2d2c</color>
+    <color name="box_color">#d15241</color>
+    <color name="gray">#F1F1F1</color>
+
+    <color name="cus_divider">#FFC28686</color>
+    <color name="dot_dark_screen1">#3b3b3b</color>
+    <color name="dot_dark_screen2">#3b3b3b</color>
+    <color name="dot_dark_screen3">#3b3b3b</color>
+    <color name="dot_dark_screen4">#3b3b3b</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#8f8f8f</color>
+    <color name="dot_light_screen2">#8f8f8f</color>
+    <color name="dot_light_screen3">#8f8f8f</color>
+    <color name="dot_light_screen4">#8f8f8f</color>
+
+    <color name="plashholder">#aeadad</color>
+</resources>

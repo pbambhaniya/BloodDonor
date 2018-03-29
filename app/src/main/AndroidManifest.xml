@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.multipz.bloodbook">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name=".Utils.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Activity.RegistrationActivity" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity
+            android:name=".Activity.SplachScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.WelcomeActivity" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_id" />
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_uw9cWyOAaTb9Jl" />
+
+        <activity android:name=".Activity.DonateBloodActivity" />
+        <activity android:name=".Activity.DashboardActivity" />
+        <activity android:name=".Activity.RequestBloodActivity" />
+        <activity android:name=".Activity.SaveBloodRequestActivity" />
+        <activity android:name=".Activity.MyDonationHistory" />
+        <activity android:name=".Activity.CurrentBloodRequestActivity" />
+        <activity android:name=".Activity.DonateMoney" />
+        <activity android:name=".Activity.ActiveDonersActivity" />
+        <activity android:name=".Activity.ProfileActivity" />
+        <activity android:name=".Activity.BirthdayActivity"></activity>
+        <activity
+            android:name=".Activity.DrawerActivity"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.DonateBloodDetailActivity" />
+        <activity android:name=".Activity.ReceiveNotificationActivity" />
+        <activity android:name=".Activity.SaveLaterAcceptActivity" />
+        <activity android:name=".Activity.RequestAcceptedActivity" />
+
+        <service android:name=".Utils.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Utils.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".Chatting.ChatListActivity" />
+        <activity android:name=".Chatting.ChattingActivity" />
+        <activity android:name=".Activity.TotalBloodHistory" />
+        <activity android:name=".Activity.RequestAcceptChattingActivity" />
+        <activity android:name=".Activity.GetRequestAcceptedListActivity" />
+        <activity android:name=".Activity.EditProfileActivity"></activity>
+    </application>
+
+</manifest>

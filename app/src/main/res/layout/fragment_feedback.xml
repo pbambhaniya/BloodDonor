@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="How do you feel about blood donar?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/img_happy"
+            android:src="@drawable/happy_unselect"
+            android:layout_weight="1"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <ImageView
+            android:id="@+id/img_curious"
+            android:src="@drawable/happy_unselect"
+            android:layout_weight="1"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <ImageView
+            android:id="@+id/img_meh"
+            android:src="@drawable/happy_unselect"
+            android:layout_weight="1"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <ImageView
+            android:id="@+id/img_confused"
+            android:src="@drawable/happy_unselect"
+            android:layout_weight="1"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <ImageView
+            android:id="@+id/img_upset"
+            android:src="@drawable/happy_unselect"
+            android:layout_weight="1"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="-10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_happy"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Happy"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txt_curious"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Curious"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txt_meh"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Meh"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txt_confused"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Confused"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txt_upset"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Upset"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtMessage"
+        android:hint="Type a message"
+        android:padding="5dp"
+        android:gravity="start"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/border_app"
+        android:layout_height="200dp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_btn_login"
+        android:elevation="10dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

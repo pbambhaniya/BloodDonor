@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Blood Donor Pro</string>
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+    <string name="facebook_id">163118771090709</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="welcome_text1">It is for free. The blood you donate gives somebody another shot at life.</string>
+    <string name="welcome_text2">Choose the location and we can find the blood donors nearby you.</string>
+    <string name="welcome_text3">It notifies user after 3 months that they can now give the blood.</string>
+    <string name="welcome_text4">User can save the post for later, and can view again when they get free and can do the enquiry.</string>
+
+</resources>
